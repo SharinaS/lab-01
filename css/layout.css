@@ -1,0 +1,54 @@
+body { 
+    width: 480px;
+    margin: auto;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+div {
+    
+    float: left;
+    border: 1px solid black;
+}
+
+#a {
+    width: 480px;
+    height: 75px;
+}
+
+#a {
+    width: 480px;
+    height: 75px;
+}
+
+#b {
+    width: 480px;
+    height: 150px;
+}
+
+#c {
+    width: 480px;
+    height: 125px;
+}
+
+#d {
+    width: 480px;
+    height: 125;
+}
+
+#e {
+    width: 240px;
+    height: 250;
+}
+
+    
+/*
+@media(min-width: 768px){
+    body {
+        width: 768px;
+        margin: auto;
+    }
+}
+*/
