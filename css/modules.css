@@ -1,0 +1,22 @@
+:root {
+    --mobile-color: pink;
+    --desktop-color: aqua;
+    --tablet-color: red;
+}
+
+div {
+    background-color: var(--mobile-color);
+    border: 1px solid black;
+}
+
+@media(min-width: 600px){
+    div {
+        background-color: var(--tablet-color);
+    }
+}
+
+@media(min-width: 768px){
+    div {
+        background-color: var(--desktop-color);
+    }
+}
