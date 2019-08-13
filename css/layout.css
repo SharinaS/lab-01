@@ -8,9 +8,10 @@ body {
   }
 
 div {
-    
     float: left;
     border: 1px solid black;
+    text-align: center;
+    
 }
 
 #a {
@@ -35,20 +36,39 @@ div {
 
 #d {
     width: 480px;
-    height: 125;
+    height: 125px;
 }
 
 #e {
     width: 240px;
-    height: 250;
+    height: 250px;
+}
+
+#f {
+    width: 240px;
+    height: 250px;
+}
+
+#g {
+    width: 240px;
+    height: 250px;
+}
+
+#h {
+    width: 240px;
+    height: 250px;
+}
+
+#i {
+    width: 480px;
+    height: 80px;
 }
 
     
-/*
+
 @media(min-width: 768px){
     body {
         width: 768px;
         margin: auto;
     }
 }
-*/
