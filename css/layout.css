@@ -1,12 +1,20 @@
-* {
-    box-sizing: border-box;
+body { 
+    width: 480px;
+    margin: auto;
   }
+
 
 div {
     float: left;
 }
 
 /* mobile specific dimensions */
+
+/* div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8) {
+    width: 50%;
+    height: 240px;
+    line-height: 240px;
+} */
 
 #a {
     width: 480px;
@@ -20,25 +28,13 @@ div {
     line-height: 150px;
 }
 
-#c {
+#c, #d {
     width: 480px;
     height: 125px;
     line-height: 125px;
 }
 
-#d {
-    width: 480px;
-    height: 125px;
-    line-height: 125px;
-}
-
-#e {
-    width: 240px;
-    height: 250px;
-    line-height: 250px;
-}
-
-#f {
+#e, #f {
     width: 240px;
     height: 250px;
     line-height: 250px;
@@ -64,8 +60,13 @@ div {
 
 /* desktop specific dimensions */
 @media(min-width: 768px){
-    div {
+    /*div {
         width: 960px;
+    }*/
+
+    body{
+        width: 960px;
+        margin: auto;
     }
 
     #a {
@@ -80,37 +81,13 @@ div {
         line-height: 600px;
     }
     
-    #c {
+    #c, #d {
         width: 380px;
         height: 200px;
         line-height: 200px;
     }
     
-    #d {
-        width: 380px;
-        height: 200px;
-        line-height: 200px;
-    }
-    
-    #e {
-        width: 190px;
-        height: 250px;
-        line-height: 250px;
-    }
-    
-    #f {
-        width: 190px;
-        height: 250px;
-        line-height: 250px;
-    }
-    
-    #g {
-        width: 190px;
-        height: 250px;
-        line-height: 250px;
-    }
-    
-    #h {
+    #e, #f, #g, #h {
         width: 190px;
         height: 250px;
         line-height: 250px;
