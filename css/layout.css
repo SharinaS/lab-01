@@ -1,19 +1,18 @@
+/* Mobile Specific Design */
+
 body { 
     width: 480px;
     margin: auto;
   }
 
 
-div {
-    float: left;
+main {
+    display: flex;
+    flex-direction: column;
+    
 }
-
-/* mobile specific dimensions */
-
-/* div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8) {
-    width: 50%;
-    height: 240px;
-    line-height: 240px;
+/* div {
+    float: left;
 } */
 
 #a {
