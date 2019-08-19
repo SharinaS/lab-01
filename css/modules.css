@@ -10,12 +10,14 @@ div {
     text-align: center;
 }
 
+/* Tablet */
 @media(min-width: 600px){
     div {
         background-color: var(--tablet-color);
     }
 }
 
+/* Desktop */
 @media(min-width: 768px){
     div {
         background-color: var(--desktop-color);
