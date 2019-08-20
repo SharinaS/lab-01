@@ -1,25 +1,106 @@
 :root {
-    --mobile-color: pink;
-    --desktop-color: aqua;
-    --tablet-color: red;
+    --a-color: aqua;
+    --b-color: pink;
+    --c-color: red;
+    --d-color: orange;
+    --e-color: green;
+    --f-color: silver;
+    --g-color: yellow;
+    --h-color: tan;
+    --i-color: salmon;
 }
 
 div {
-    background-color: var(--mobile-color);
     border: 1px solid black;
     text-align: center;
 }
 
+#a {
+    background-color: var(--a-color);
+}
+#b {
+    background-color: var(--b-color); 
+}
+#c {
+    background-color: var(--c-color); 
+}
+#d {
+    background-color: var(--d-color);
+}
+#e {
+    background-color: var(--e-color); 
+}
+#f {
+    background-color: var(--f-color); 
+}
+#g {
+    background-color: var(--g-color);
+}
+#h {
+    background-color: var(--h-color); 
+}
+#i {
+    background-color: var(--i-color); 
+}
+
 /* Tablet */
 @media(min-width: 600px){
-    div {
-        background-color: var(--tablet-color);
+    #a {
+        background-color: var(--a-color);
+    }
+    #b {
+        background-color: var(--b-color); 
+    }
+    #c {
+        background-color: var(--c-color); 
+    }
+    #d {
+        background-color: var(--d-color);
+    }
+    #e {
+        background-color: var(--e-color); 
+    }
+    #f {
+        background-color: var(--f-color); 
+    }
+    #g {
+        background-color: var(--g-color);
+    }
+    #h {
+        background-color: var(--h-color); 
+    }
+    #i {
+        background-color: var(--i-color); 
     }
 }
 
 /* Desktop */
 @media(min-width: 768px){
-    div {
-        background-color: var(--desktop-color);
+    #a {
+        background-color: var(--a-color);
+    }
+    #b {
+        background-color: var(--b-color); 
+    }
+    #c {
+        background-color: var(--c-color); 
+    }
+    #d {
+        background-color: var(--d-color);
+    }
+    #e {
+        background-color: var(--e-color); 
+    }
+    #f {
+        background-color: var(--f-color); 
+    }
+    #g {
+        background-color: var(--g-color);
+    }
+    #h {
+        background-color: var(--h-color); 
+    }
+    #i {
+        background-color: var(--i-color); 
     }
 }
